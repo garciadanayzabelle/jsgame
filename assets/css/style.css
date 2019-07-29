@@ -1,0 +1,161 @@
+@font-face {
+	font-family: "square";
+	src: url("../square.ttf");
+}
+
+* {
+
+}
+
+body {
+	font-family: sans-serif;
+	padding: 50px;
+}
+
+h1{
+	font-family: "square", sans-serif;
+}
+
+#start {
+	border-radius: 5px;
+	font-family: "square", sans-serif;
+	font-size: 1.7em;
+	width: 118px;
+	height: 40px;
+	margin-left: 30px;
+	margin-top: 50px;
+	box-shadow: 0;
+	border: 0;
+	background-color: transparent;
+	color: #5c5c5c;
+}
+
+#start:hover {
+	background-color: #e8e8e8;
+	outline: none;
+	borer: none;
+}
+
+#start:active {
+	outline: none;
+	borer: none;
+}
+
+#roundText {
+	position: absolute;
+	margin-left: 63px;
+	margin-top: 10px;
+}
+
+/*#title {
+	position: absolute;
+	font-size: 40px;
+	margin-left: 45px;
+ 	margin-top: 40px;
+ 	color: black;
+ 	font-weight: bold;
+}*/
+
+#round {
+	position: absolute;
+	background-color: white;
+	font-family: "square", sans-serif;
+	font-size: 22px;
+	height: 30px;
+	width: 65px;
+	margin-left: 60px;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid white;
+	vertical-align: middle;
+}
+
+#outer-circle {
+	border-radius: 50%;
+	height: 500px;
+	width: 500px;
+	position: relative;
+	border: 10px solid white;
+	margin-top: 60px;
+	margin: 0 auto;
+	/*box-shadow: 8px 8px 15px 5px gray;*/
+}
+
+/*blue*/
+#topleft {
+	position: absolute;
+	height: 245px;
+	width: 245px;
+	border-radius: 250px 0 0 0;
+	background-color: #8cbddb;
+	top: 50%;
+	left: 50%;
+	margin: -245px 0px 0px -245px;
+	border: 5px solid white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+/*pink*/
+#topright {
+	position: absolute;
+	height: 245px;
+	width: 245px;
+	border-radius: 0 250px 0 0;
+	background-color: #d9b6d9;
+	top: 50%;
+	left: 50%;
+	margin: -245px 0px 0px 0px;
+	border: 5px solid white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+/*yellow*/
+#bottomleft {
+	position: absolute;
+	height: 245px;
+	width: 245px;
+	border-radius: 0 0 0 250px;
+	background-color: #f0cd8b;
+	top: 50%;
+	left: 50%;
+	margin: 0px -245px 0px -245px;
+	border: 5px solid white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+/*green*/
+#bottomright {
+	position: absolute;
+	height: 245px;
+	width: 245px;
+	border-radius: 0 0 250px 0;
+	background-color: #7bb8af;
+	top: 50%;
+	left: 50%;
+	margin: 0px 0px -245px 0px;
+	border: 5px solid white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+#inner-circle {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 10px solid white;
+  top: 55%;
+  left: 55%;
+  margin: -125px 0px 0px -125px;
+  box-sizing: border-box;
+}
+
+#score {
+	font-family: "square", sans-serif;
+}
+
